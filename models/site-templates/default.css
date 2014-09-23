@@ -1,0 +1,48 @@
+/*---------  admin_addUsers styles  ---------*/
+#content #main #usersbox {
+	border-top: 1px solid #FF0505;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    padding: 0;
+    width: 95%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#content #main #usersbox .userFields {
+	border-bottom: 1px solid #ff0505;
+	padding: 0 0 20px;
+}
+
+#content #main #usersbox p input {
+	margin: 0 5px 0 10px;
+}
+
+#content #main #usersbox .userFields label,
+#content #main #usersbox .userFields input {
+	float:left;
+	width: auto;
+}
+
+#content #main #usersbox .userFields label {
+	padding: 0 10px 0 5px;
+	/*width: auto;*/
+}
+
+#content #main #usersbox .userFields input {
+	margin-right: 25px;
+	/*width: 210px;*/
+}
+
+#content #main #usersbox .submitBtn {
+	float: right;
+	margin: 15px 0 0;
+}
